@@ -1,0 +1,9 @@
+jobs:
+  build:
+
+    macos:
+      xcode: 11.0.0 # Specify the Xcode version to use
+
+    steps:
+      - checkout
+      - run: pod install # Install CocoaPods dependencies
